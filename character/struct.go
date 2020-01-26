@@ -1,4 +1,4 @@
-package user
+package character
 
 import (
 	"github.com/gregmus2/village-of-life/area"
@@ -32,12 +32,12 @@ type Goal struct {
 	Target     area.Pos
 }
 
-type User struct {
+type Character struct {
 	Skills struct {
 		Trade      float64
 		Parenthood float64
 	}
-	Relations       map[*User]float64
+	Relations       map[*Character]float64
 	Propensity      map[int]float64
 	Characteristics struct {
 		Social  float64
