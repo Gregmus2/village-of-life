@@ -1,4 +1,4 @@
-package area
+package util
 
 import "math"
 

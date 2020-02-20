@@ -1,7 +1,7 @@
 package character
 
 import (
-	"github.com/gregmus2/village-of-life/area"
+	"github.com/gregmus2/village-of-life/util"
 )
 
 type Skills struct {
@@ -29,7 +29,7 @@ type Goal struct {
 	ID         int
 	Importance float32
 	Type       GoalType
-	Target     area.Pos
+	Target     util.Pos
 }
 
 type Character struct {
